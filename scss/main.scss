@@ -5,6 +5,12 @@
     font-weight: normal;
     box-sizing: border-box; 
 }
+.wrapper {
+    width: 100%;
+    min-height: 100vh;    
+    position: relative;
+    overflow-x: hidden;
+}
 
 a {
     text-decoration: none;
@@ -13,5 +19,8 @@ a {
 
 .container {
     width: 1200px;
-    margin: 0 auto;  
+    margin: 0 auto;
+}
+.about__image {
+    width: 100%;    
 }
