@@ -35,6 +35,19 @@
         font-weight: 400;
         line-height: 160%; /* 28.8px */
     }
+    &__text__block {
+        float: right;
+        padding: 85px 73px;
+    }
+    &__text__cond {      
+        
+        width: 560px;
+        padding: 20px 0;
+        color: $Grayscale10;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 160%; /* 28.8px */
+    }
     &__block {
         background: $PrimaryBlue100;
         display: grid;        
